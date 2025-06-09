@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link href="style.css" rel="Stylesheet"type=text/css />
+      <style>
+        body{
+            font-family:'Arial',sans-serif;
+            background-color:black;
+            color:darksalmon;
+        }
+        
+        h1{
+            color:cadetblue;
+        }
+        /* Attribute Selector*/
+        a{
+            color:rgb(148, 145, 142);
+            text-decoration:none;
+        }
+        a:hover{
+            color:#ff7b72
+        }
+        /*child selector*/
+        ul>li{
+            font-weight:bold;
+        }
+        /*Sibling selector*/
+        h1+p{
+            background-color: black;
+            padding:10px;
+            border-radius: 5px;
+        }
+        /* :hover Pseudo-class*/
+        ul li:hover{
+            color:cyan
+        }
+        ul li:nth-child(3) {
+            background-color:crimson
+        }
+        /*: not (selector) Pseudo-class*/
+        p:not(:first-of-type){
+            text-decoration:underline ;
+        }
+        /*::before Pseudo-element*/
+        ul li::before{
+            content:↗️;
+        }
+        /*::first-letter Pseudo-selement*/
+        p::first-letter{
+            font-size:200% ;
+            color:#ff7b72 ;
+        }
+      </style>
+<body>
+    
+</body>
+</html>
+<body>
+    
+</body>
+</html>
