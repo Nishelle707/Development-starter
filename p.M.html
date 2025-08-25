@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    <h2>Multiplication/Project</h2>
+    <label>Enter the first number:</label>
+    <input type="number" id="num1"><br><br>
+    <label>Enter the second number:</label>
+    <input type="number" id="num2"><br><br>
+    <button onclick="multiplyNumbers()">Multiply</button>
+    <p id="result"></p>
+    <script>
+        //Function with Parameters
+        function multiply(a, b) {
+            return a * b;
+        }
+        function mulitplyNumbers() {
+            //Get values from input fields
+            let n1 = parseInt(document.getElementById("num1").value)
+            let n2 = parseInt(document.getElementById("num2").value)
+            //Call function
+            let product = multiply (n1, n2);
+            
+            //Show result
+            document.getElementById("result").innerHTML = 
+            "The multiplication of " + n1 + " and " + n2 + "is:" +
+            product;
+        }
+    </script>
+</body>
+</html>
