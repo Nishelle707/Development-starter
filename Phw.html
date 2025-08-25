@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html,body {
+            height: 100%;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h2>Project String Methods</h2>
+    <P>Basic Methods</P>
+    <script>
+        var str = "AmAZing";
+        document.write(str.topUpperCase());
+        document.write("<br>");
+        document.write(str.topLowerrCase());
+        document.write("<br>");
+        document.write(str.startsWith('i'));
+        document.write("<br>");
+        // Test Method -> returns true or false
+        var str1 = "I learnt about Methods";
+        var patt = new RegExp("about");
+        var res = patt.test(str1);
+        document.write(res);
+    </script>
+</body>
+</html>
