@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+<h2>Javascript String Method Project</h2>
+
+    <p>Search for a string  "best", display the
+        position of the match and replace the word "you are the
+    " with "you are the best"
+        and display</p>
+
+        <p id="search_result"></p>
+        <p id="replace_result"></p>
+        <p id="string_result"></p>
+
+        <script>
+            var str = "Hi, you are the best";
+            var search_position = str.search("best");
+            var txt = str.replace("you are the", "you are the ")
+            var x = 90;
+            var y = 80;
+
+            document.getElementById("search_result").
+            innerHTML = search_position;
+            document.getElementById("replace_result").
+            innerHTML = txt;
+
+            document.getElementById("string_result").
+            innerHTML = String(x) + String(y); 
+
+        </script>
+
+    
+</body>
+</html>
