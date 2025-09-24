@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <script>
+        function validationForm() {
+            var x = document.forms["myForm"]
+            ["fname"].value;
+            if (x == "") {
+                alert("You must be 18 years of age or older");
+                return false;
+
+            }
+            else document.write("");
+
+            
+        }
+    </script>
+</head>
+<body>
+    <form name= "myForm" onsubmit="validateForm() ">
+        Age:
+        <input type="age" age= 18>
+        <input type="Submit" text="Submit">
+        <p id="message"></p>
+    </form>
+</body>
+</html>
