@@ -9,22 +9,30 @@
 
     <style>
 
+
+
+
+
+
 .card-container {
 
 display: flex; /* Keeps cards next to each other */
 
-justify-content: center; /* Centers all cards in a row */
-
-gap: 20px; /* Space between cards */
+justify-content: center; 
 
 margin-top: 40px;
 
 }
 
+
+
+
+
 .card {
 
-width: 18rem; /* Same width for all cards */
-
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
 border: 1px solid #ccc;
 
 border-radius: 10px;
@@ -43,9 +51,9 @@ font-family: Arial, sans-serif;
 
 .card img {
 
-width: 100%;
+width: 200%;
 
-height: 200px;
+height: 600px;
 
 object-fit: cover;
 
@@ -57,7 +65,7 @@ padding: 15px;
 
 }
 
-.card-body h5 {
+.card-body h2 {
 
 font-size: 18px;
 
@@ -104,7 +112,7 @@ background-color: #0056b3;
 <link rel="stylesheet" href="style 3.css">
 
 </head>
-<body style="background-color: rgb(238, 244, 244);">
+<body style="background-color: rgb(251, 252, 252);">
     <p style="font-size: 50px; text-align: center; color: rgb(36, 57, 110);"><b>Holy Family Convent Bambalapitiya </b></p>
     <p style="font-size: 24px; text-align: center; color: rgb(87, 103, 129);"><b>Holy Family Convent Bambalapitiya, one of the prestigious Catholic girls' school in Sri Lanka</b></p>
 
@@ -112,160 +120,71 @@ background-color: #0056b3;
     <section>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a style="color: blue;" class="navbar-brand" href="https://hfcb.lk/">Home</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    
     </button>
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a  class="nav-link active" aria-current="page" href="https://hfcb.lk/">About us</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://hfcb.lk/">Academic</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://hfcb.lk/">Activities</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Facilities
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://hfcb.lk/"></a></li>
-            <li><a class="dropdown-item" href="https://hfcb.lk/"></a></li>
-            <li><a class="dropdown-item" href="https://hfcb.lk/"></a></li>
-          </ul>
-        </li>
-      </ul>
+    <div  class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+      <div class="navbar-nav" >
+        <a style="color: #007bff;" class="nav-link active" aria-current="page" href="school web.html">Home</a>
+        <a class="nav-link" href="about.html"><b>About us</b></a>
+        <a class="nav-link" href="#"><b>Academic</b></a>
+        <a class="nav-link" href="#"><b>Activities</b></a>
+        <a class="nav-link" href="#"><b>Facilities</b></a>
+        <a class="nav-link" href="#"><b>Extended Family</b></a>
+        <a class="nav-link" href="#"><b>Careers</b></a>
+        <a class="nav-link" href="contactme.html"><b>Contact Us</b></a>
+        
+      </div>
     </div>
   </div>
 </nav>
 </section>
 
-
-
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-
-  <div class="carousel-inner" style="max-width:1060px; height:435px; margin:auto;">
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="ff.jpg" class="d-block w-100" style="height:100%; object-fit:cover;" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        
-      </div>
+      <img src="carousel 1.png" class="d-block w-100" alt="...">
     </div>
-
     <div class="carousel-item">
-      <img src="chapel.jpg" class="d-block w-100" style="height:100%; object-fit:cover;" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        
-      </div>
+      <img src="chapel.jpg" class="d-block w-100" alt="...">
+      
     </div>
+    
+  </div>
+</div>
 
-    <div class="carousel-item">
-      <img src="bm.jpg" class="d-block w-100" style="height:100%; object-fit:cover;" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        
+</div>
+<br><br>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="sc.jpeg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h2 class="card-title"><b>PRINCIPAL'S MESSAGE</b></h2>
+        <p class="card-text"></p>I humbly say “YES” to my call as a religious, 
+        surrendering myself totally to the will of God to lead Holy Family Convent, Bambalapitiya, one of the prestigious Catholic girls’ school in Sri Lanka. 
+        I take the responsibility together with my religious family, staff and the extended family of Holy Family Convent, Bambalapitiya to form young women of
+         virtue and wisdom, who can light up the world through a holistic education. Holy Family Convent, Bambalapitiya has been fulfilling this great mission for over 120 years.
+          When our founder Blessed Pierre Bienvenu Noailles dreamed of an association which could become a blessing to the scattered children of God in France after the revolution.
+        <p class="card-text"><small class="text-body-secondary"></small></p>
       </div>
     </div>
   </div>
-
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-
 </div>
-<div class="card-container">
-
-<div class="card-container">
-
-<div class="card">
-
-<img src="avu.jpeg" alt="...">
-
-<div class="card-body">
-
-<h5>Traditional Avurudu Celebration 2025</h5>
-
-<p>A beautiful Avurudu celebration was held in HFC on April 2025.</p>
-
-<a href="#" class="btn">More Information</a>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<img src="sm.jpeg" alt="...">
-
-<div class="card-body">
-
-<h5>Annual school sports Meet 2025</h5>
-
-<p>Carmel takes the win this time proving that there is a winner in every one of us</p>
-
-<a href="#" class="btn">More Information</a>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<img src="cf.jpeg" alt="...">
-
-<div class="card-body">
-
-<h5>Cassandra Fernando Australian MP</h5>
-
-<p>Cassandra Fernando, past pupil of HFC's emotional declaration</p>
-
-<a href="#" class="btn">More Information</a>
-
-</div>
-
-</div>
-
-</div>
-
 </div>
 <br>
 <br>
 <br>
-<p style="color: rgb(119, 164, 171); font-size: larger; text-align: center; font-family: 'Times New Roman', Times, serif;">
-        <b>Holy Family Convent (HFC) in Bambalapitiya was founded in 1903 by the 
-        Sisters of the Holy Family, who were invited to establish a girls' 
-        English school.<br> It started in a rented house with one classroom
-        and has since grown to include a boarding school, science lab, chapel,
-        and various other facilities.<br> The school has a long history of education
-        and extracurricular activities, and its past pupils' association
-        was established in 1934<br><br><br><br></p>
 
-    <p style="color: #6eaeb1; font-size: larger; font-family: 'Times New Roman', Times, serif;"> 
-  <b>Origins:</b> It began in a rented house on Laurie's Road with a single classroom and 28 students, both girls and boys.<br><br>
-  <b>Expansion:</b> The school has expanded significantly over time and now includes a boarding school, kindergarten, science lab, chapel, art room, library, assembly hall, and sports facilities.<br><br>
-  <b>Past Pupils Association (PPA):</b> The PPA was inaugurated on March 17, 1934, and is active in supporting the school through various fundraisers.<br><br>
-  <b>School culture:</b> The school's vision is to "light up the world with women of virtue and wisdom" and it aims to develop creative, entrepreneurial, and balanced individuals.<br><br>
-  <b>Going private:</b> The school opted to "go private" in 1960 under the Schools Take Over Act, which required it to find ways to raise funds to continue its work.<br><br>
-</p>
-<br>
+
+
+
 <footer>
         <p>© 2025 Holy Family Convent Bambalapitiya, Galle Road, Colombo 04 </p>
         <p>Email: info@hfcb.lk  ></p>
         <p>Contact: 0112587261</p>
     </footer>
-
 
 </body>
 </html>
