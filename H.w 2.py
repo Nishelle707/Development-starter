@@ -1,4 +1,4 @@
-Name = int(input("Enter a name:"))
+Name = input("Enter a name:")
 
 if name = Joshua:
     print("15/2/2010, Joshua's Birthday")
